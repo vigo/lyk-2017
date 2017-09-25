@@ -11,14 +11,14 @@ Tüm ifadeleri `/İFADE/SEÇENEKLER` şeklinde yazıyoruz. Seçenekler zorunlu d
 
     /garaja/
 
-Araba 21 numaralı **==garaja==** park etti ve Vigo kebap yemek için LYK2017 Rails
+Araba 21 numaralı **garaja** park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti.
 
 ---
 
     /Vigo/
 
-Araba 21 numaralı garaja park etti ve **==Vigo==** kebap yemek için LYK2017 Rails
+Araba 21 numaralı garaja park etti ve **Vigo** kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti.
 
 ---
@@ -60,61 +60,61 @@ Karakter    | Açıklama
 
     /.ar/
 
-Araba 21 nu**==mar==**alı **==gar==**aja **==par==**k etti ve Vigo kebap yemek
+Araba 21 nu**mar**alı **gar**aja **par**k etti ve Vigo kebap yemek
 için LYK2017 Rails öğrencileri ile ET Evi'ne gitti.
 
 ### Karakterler Seti: `[ ]`
 
     /[Aa]ra/
 
-**==Ara==**ba 21 num**==ara==**lı g**==ara==**ja park etti ve Vigo kebap yemek için LYK2017 Rails
+**Ara**ba 21 num**ara**lı g**ara**ja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti.
 
 
     /ti[.]/
 
 Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
-öğrencileri ile ET Evi'ne git**==ti.==**
+öğrencileri ile ET Evi'ne git**ti.**
 
 ### Olumsuzlanan/İstenmeyen Karakterler Seti: `[^ ]`
 
     /[^A]ra/
 
-Araba 21 num**==ara==**lı g**==ara==**ja park etti ve Vigo kebap yemek için LYK2017 Rails
+Araba 21 num**ara**lı g**ara**ja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti.
 
 ### Tekrarlamalar: `*`
 
     /[A-Z][A-Z]*/
 
-**==A==**raba 21 numaralı garaja park etti ve **==V==**igo kebap yemek için
-**==LYK==**2017 **==R==**ails öğrencileri ile **==ET==** **==E==**vi'ne gitti.
+**A**raba 21 numaralı garaja park etti ve **V**igo kebap yemek için
+**LYK**2017 **R**ails öğrencileri ile **ET** **E**vi'ne gitti.
 
 ### Tekrarlamalar: `+`
 
     /[A-Z][A-Z]+/
 
-Araba 21 numaralı garaja park etti ve Vigo kebap yemek için **==LYK==**2017 Rails
-öğrencileri ile **==ET==** Evi'ne gitti.
+Araba 21 numaralı garaja park etti ve Vigo kebap yemek için **LYK**2017 Rails
+öğrencileri ile **ET** Evi'ne gitti.
 
 ### Opsiyonel: `?`
 
     /21?/
 
-Araba **==21==** numaralı garaja park etti ve Vigo kebap yemek için
-LYK**==2==**017 Rails öğrencileri ile ET Evi'ne gitti.
+Araba **21** numaralı garaja park etti ve Vigo kebap yemek için
+LYK**2**017 Rails öğrencileri ile ET Evi'ne gitti.
 
     /\w+?\d+/
 
-Araba **==21==** numaralı garaja park etti ve Vigo kebap yemek için
-**==LYK2017==** Rails öğrencileri ile ET Evi'ne gitti.
+Araba **21** numaralı garaja park etti ve Vigo kebap yemek için
+**LYK2017** Rails öğrencileri ile ET Evi'ne gitti.
 
 ### Köşeli Parantez
 
     /[0-9]/
 
-Araba **==21==** numaralı garaja park etti ve Vigo kebap yemek için
-LYK**==2017==** Rails öğrencileri ile ET Evi'ne gitti.
+Araba **21** numaralı garaja park etti ve Vigo kebap yemek için
+LYK**2017** Rails öğrencileri ile ET Evi'ne gitti.
 
     2 1
     2 0 1 7
@@ -134,8 +134,8 @@ Araba **21** numaralı garaja park etti ve Vigo kebap yemek için LYK**2017** Ra
 
     /[0-9]{2,}/
 
-Araba **==21==** numaralı garaja park etti ve Vigo kebap yemek için
-LYK**==2017==** Rails öğrencileri ile ET Evi'ne gitti.
+Araba **21** numaralı garaja park etti ve Vigo kebap yemek için
+LYK**2017** Rails öğrencileri ile ET Evi'ne gitti.
 
     21
     2017
@@ -144,7 +144,7 @@ En az 2, en çok 3 tekrar:
 
     /[0-9]{2,3}/
 
-Araba **==21==** numaralı garaja park etti ve Vigo kebap yemek için LYK**==201==**7 Rails
+Araba **21** numaralı garaja park etti ve Vigo kebap yemek için LYK**201**7 Rails
 öğrencileri ile ET Evi'ne gitti.
 
     21
@@ -154,7 +154,7 @@ Araba **==21==** numaralı garaja park etti ve Vigo kebap yemek için LYK**==201
 
     /(A|a)ra/
 
-**==Ara==**ba 21 num**==ara==**lı g**==ara==**ja park etti ve Vigo kebap yemek
+**Ara**ba 21 num**ara**lı g**ara**ja park etti ve Vigo kebap yemek
 için LYK2017 Rails öğrencileri ile ET Evi'ne gitti.
 
     1. A
@@ -188,7 +188,7 @@ Alternatifli;
 
     /(A|a)ra|21/
 
-**==Ara==**ba **==21==** num**==ara==**lı g**==ara==**ja park etti ve Vigo
+**Ara**ba **21** num**ara**lı g**ara**ja park etti ve Vigo
 kebap yemek için LYK2017 Rails öğrencileri ile ET Evi'ne gitti.
 
 Yakalananlar;
@@ -206,7 +206,7 @@ Yakalananlar;
     /\'|\./
 
 Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
-öğrencileri ile ET Evi**=='==**ne gitti**==.==**
+öğrencileri ile ET Evi**'**ne gitti**.**
 
 `'` ve `.` harflerini yakaladık!
 
@@ -214,7 +214,7 @@ Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
 
     /^Araba/
 
-**==Araba==** 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
+**Araba** 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti. Araba deyip geçmeyin, çok ama çok çok çok
 faydalı bir cihazdır. Siz de alın bir Araba
 
@@ -222,7 +222,7 @@ faydalı bir cihazdır. Siz de alın bir Araba
 
 Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti. Araba deyip geçmeyin, çok ama çok çok çok
-faydalı bir cihazdır. Siz de alın bir **==Araba==**
+faydalı bir cihazdır. Siz de alın bir **Araba**
 
 ---
 
@@ -244,7 +244,7 @@ Sembol | Açıklama
 
 Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti. Araba deyip geçmeyin, çok ama çok çok çok
-faydalı bir cihazdır. Siz de alın bir Araba. **==LYK==2017** demişken, çok harika
+faydalı bir cihazdır. Siz de alın bir Araba. **LYK2017** demişken, çok harika
 geçti! Umarım LYK2018 de iyi geçer!
 
     LYK
@@ -258,8 +258,8 @@ yakalanacaktı.
 
 Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti. Araba deyip geçmeyin, çok ama çok çok çok
-faydalı bir cihazdır. Siz de alın bir Araba. **==LYK==2017** demişken, çok
-harika geçti! Umarım **==LYK==2018** de iyi geçer!
+faydalı bir cihazdır. Siz de alın bir Araba. **LYK2017** demişken, çok
+harika geçti! Umarım **LYK2018** de iyi geçer!
 
     1. LYK
     
@@ -269,10 +269,10 @@ harika geçti! Umarım **==LYK==2018** de iyi geçer!
 
     /(?<=LYK)(\d{4})/
 
-Araba 21 numaralı garaja park etti ve Vigo kebap yemek için **LYK==2017==** Rails
+Araba 21 numaralı garaja park etti ve Vigo kebap yemek için **LYK2017** Rails
 öğrencileri ile ET Evi'ne gitti. Araba deyip geçmeyin, çok ama çok çok çok
-faydalı bir cihazdır. Siz de alın bir Araba. **LYK==2017==** demişken, çok harika
-geçti! Umarım **LYK==2018==** de iyi geçer! Keza bu FOO2017 Rails da örnektir.
+faydalı bir cihazdır. Siz de alın bir Araba. **LYK2017** demişken, çok harika
+geçti! Umarım **LYK2018** de iyi geçer! Keza bu FOO2017 Rails da örnektir.
 
     1. 2017
     
@@ -287,7 +287,7 @@ geçti! Umarım **LYK==2018==** de iyi geçer! Keza bu FOO2017 Rails da örnekti
 Araba 21 numaralı garaja park etti ve Vigo kebap yemek için LYK2017 Rails
 öğrencileri ile ET Evi'ne gitti. Araba deyip geçmeyin, çok ama çok çok çok
 faydalı bir cihazdır. Siz de alın bir Araba. LYK2017 demişken, çok harika
-geçti! Umarım LYK2018 de iyi geçer! Keza bu **FOO==2017==** Rails da örnektir.
+geçti! Umarım LYK2018 de iyi geçer! Keza bu **FOO2017** Rails da örnektir.
 
     1. 2017
 
